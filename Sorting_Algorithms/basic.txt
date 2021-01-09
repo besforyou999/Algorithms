@@ -51,13 +51,14 @@ void sort(int a[], int n){
 
 2. Straight selection sort
 
+
  Selects the smallest element and insert the element to an appropriate position
  until sorting is complete.
 
  	Simply said,
 		
 		1) Find the smallest element from the field that are not sorted yet
-		2) Exchange the found smallest element with the first element of the field that is n		   ot yet sorted
+		2) Exchange the found smallest element with the first element of the field that is not yet sorted
 		3) Repeat until sorting is complete
 
 
@@ -69,7 +70,13 @@ void sort(int a[], int n){
 
 
 
+3. Straight insertion sort
 
+
+ Repeats inserting the chosen element to the appropriate position until sorting is completed.
+
+ 	Simply,
+		1) Choose the first element of the field where sorting is incomplete		2) Insert the chosen element to the appropriate position inside the field where sorting is complete.
 
 
 
