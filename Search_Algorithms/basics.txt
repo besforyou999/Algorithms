@@ -1,0 +1,41 @@
+		Linear search
+
+ Linear search, also known as sequential search is a method for finding an element
+within a list(or array). It sequentially checks each element of the list until a match is found or the whole list has been searched.
+ Linear search is rarely practical because other search algorithms, such as the binary search algorithm and hash tables, have more faster searching speed.
+
+1. linear_search1.c
+
+ Basic implementation of algorithm linear search
+
+
+2. Sentinel method(Sentinel Value)
+
+ Linear search does two tests at each loop
+
+ 	1)whether the value has been found in array
+	2)whether the end of array has been reached
+
+Sentinel method can make the search do one test at each loop, which makes the search more efficient. 
+  
+
+	
+
+
+
+		Binary search
+
+ To use this algorithm, data must be sorted before applying.
+Faster than linear search.
+
+Lets think about finding number 39 in this array called 'a' sorted in ascending order.
+
+	5		7		15		28		29		31		39		58		68		70		97
+	a[0]	a[1]	a[2]	a[3]	a[4]	a[5]	a[6]	a[7]	a[8]	a[9]	a[10]
+
+We can know that number 39 is bigger than 31, the element placed at the middle of the array.Then we can also know 39 is somewhere at a[6]~a[10]. Then check if a[8] is the number trying to search. a[8] is 68, which is bigger than 39. So we can know 39 is somewhere between a[6]~a[7]. Know we can find 39 by checking the last two numbers.
+
+This algorithm makes searching numbers in array much more faster than linear search.
+
+
+

@@ -1,0 +1,78 @@
+			
+		
+
+	- Sorting	
+
+
+Lining data in a specific order.
+Sorting makes easier to search data
+
+
+
+
+	- Stability of Sorting Algorithm
+
+After sorting, if elements with the same value are lined as same as before sorted, the algorithm can be called a Stable sorting algorithm. If not it can be called an unstable sorting algorith.
+
+
+
+
+
+	- Internal sorting, external sorting
+
+If a sorting algorithm can be executed in one array, it is called internal sorting
+If there is too many data hard enough to sort in one array, the algorithm is called external sorting.
+
+
+
+	- Sorting methods
+
+
+1. Bubble sort( sometimes refered to as sinking sort )
+
+ Repeats comparing and exchanging with adjacent elements until sorting is complete.
+
+ex)
+// int a[] : array to sort, int n: length of array
+void sort(int a[], int n){
+		
+	int i,j;
+
+	for(i = 0 ; i < n-1; i++) {
+		for(j = n-1 ; j > i ; j-- ) {
+			if( a[j-1] > a[j] )
+				swap( a[j-1], a[j] );
+		}
+	}
+	
+}
+
+
+
+2. Straight selection sort
+
+ Selects the smallest element and insert the element to an appropriate position
+ until sorting is complete.
+
+ 	Simply said,
+		
+		1) Find the smallest element from the field that are not sorted yet
+		2) Exchange the found smallest element with the first element of the field that is n		   ot yet sorted
+		3) Repeat until sorting is complete
+
+
+ Straight selection sort is an Unstable algorithm.
+
+ Straight selection sort algorithm changes elements (n2 -n)/2 times in average.
+ n is the number of elements in an array. n2 is square of 2
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+Algorithms
+
+
+1. What is Algorithms?
+
+ Finite sequence of well-defined computer-implementable instructions
+typically to solve a class of problems or to preform a computation
+
+
+2. Algorithm Complexity
+
+ There are two elements of complexity
+
+ 	1) Time complexity : Amount of Time needed in execution
+	2) Space complexity : Amount of memory and file space needed in execution
+
+Best algorithm should be an algorithm with the least time and space complexity, but sometimes we need to choose to give up time for memory and file space or give up memory and file space for time. 
