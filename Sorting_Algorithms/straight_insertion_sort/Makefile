@@ -4,3 +4,5 @@ main.o : main.c insertion_sort.h
 	gcc -c main.c
 insertion_sort.o : insertion_sort.c insertion_sort.h
 	gcc -c insertion_sort.c
+clean :
+	rm -f *.o

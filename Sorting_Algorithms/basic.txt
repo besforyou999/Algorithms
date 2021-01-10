@@ -70,13 +70,30 @@ void sort(int a[], int n){
 
 
 
-3. Straight insertion sort
+3. Straight insertion sort(shuttle sort)
 
 
  Repeats inserting the chosen element to the appropriate position until sorting is completed.
 
  	Simply,
 		1) Choose the first element of the field where sorting is incomplete		2) Insert the chosen element to the appropriate position inside the field where sorting is complete.
+
+	Straight insertion sort is a stable sorting algorithm.
+
+
+
+ - All three sorts(bubble sort, selection sort, insertion sort) have Time complexity of O(n square of 2 ) which is hard to say efficient.
+
+  There are better sorting methods than those three sorting algorithms.
+
+
+
+  4. quick sort
+
+  One of the fastest sorting algorithms that is widely used.
+  
+  Time complexity is O(n logn), but sometimes time complexity is O(n square)depending on the method choosing the pivot.
+ 
 
 
 
