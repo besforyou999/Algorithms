@@ -92,10 +92,17 @@ void sort(int a[], int n){
 
   One of the fastest sorting algorithms that is widely used.
   
-  Time complexity is O(n logn), but sometimes time complexity is O(n square)depending on the method choosing the pivot.
+  Time complexity is O(nlogn), but sometimes time complexity is O(n square)depending on the method choosing the pivot.
  
 
 
+
+ 5. Merge sort
+
+  - If there is more than 2 elements in the array
+  1) sort the front of the array with merge sort
+  2) sort the back of the array with merge sort 
+  3) merge front and back of the array
 
 
 

@@ -1,0 +1,14 @@
+
+	Choosing a Pivot
+
+ If there is an array that have more elements than 3, choose three elements arbitrary from the array and use the one with the middle value as a pivot.
+ 	
+	-> This method can prevent the worse case which makes the Time complexity O(n square)
+
+
+	Quick sort function in <stdlib.h>
+
+ There is a quick sort function in header file stdlib.h . This function can sort not even int, double type array, but also structure type arrays.
+ Name of the function came from quick sort but it does not use quick sort algorithm.
+
+ 	
