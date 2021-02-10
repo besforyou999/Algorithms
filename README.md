@@ -2,7 +2,7 @@
 
 algorithm basics and implementations of algorithms
 
-#LeetCode
+# LeetCode
 
 problems i solved
 
