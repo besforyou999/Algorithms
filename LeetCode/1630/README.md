@@ -1,4 +1,4 @@
--Mysolution.cpp
+Q : Arithmetic Subarrays
 
  Used brute force method
 1. sort the array to check
